@@ -18,7 +18,7 @@ export const GifExpertApp = () => {
         <>
         <div className="header ">
             <div className=" container directionHeader" >
-                <h2 > Gif Expert App</h2>
+                <h2 > Gifs  App</h2>
                 <AddCategory  setCategories={ setCategories }/>  
             </div>
         </div>

@@ -14,9 +14,9 @@ const AddCategory = ( {setCategories}) => {
         if( inputValue.trim().length >= 3){
           setCategories(categor => [inputValue , ...categor ] )
           setInputValue('')
-        }/* else{
+        } else{
             alert('Tiene q ser mayor a 3 letras')
-        } */
+        } 
             
     }
 
